@@ -1,0 +1,81 @@
+.containerr {
+    
+    width: 450px;
+    margin: auto;
+    box-shadow: 0px 0px 50px -10px black;
+    border-radius: 10px;
+}
+
+.header-nike {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+}
+
+.header-text {
+    margin: 50px 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.header-button {
+    margin: 80px 20px 30px 0px;
+    padding: 0px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(57, 146, 255);
+    border: 3px solid rgb(57, 146, 255)
+}
+
+.info {
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.basket {
+    margin: 10px 20px 2px 20px;
+}
+
+.footer {
+    height: 160px;
+}
+
+.delete {
+    color: red;
+    margin-left: 25px;
+    font-size: 12px;
+}
+.delete:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dop_panel {
+    position: absolute;
+    display:flex;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0px 0px 10px -5px black;
+    margin: 10px 10px 10px 400px;
+}
+
+.dop_panel_text {
+    padding: 20px;
+}
+
+
+.dop_panel_x {
+    padding-right: 10px;
+    color: red;
+}
+.dop_panel_x:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
